@@ -1,0 +1,16 @@
+<table class="table table-sm table-hover m-5">
+    <thead class="thead-default">
+        <tr>
+            <th>Id</th>
+            <th>Letter</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of items">
+            <td>{{item.Id}}</td>
+            <th scope="row">{{item.Letter}}</th>
+            <td>{{item.Name}}</td>
+        </tr>
+    </tbody>
+</table>
